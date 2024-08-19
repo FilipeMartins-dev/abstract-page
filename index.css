@@ -30,6 +30,9 @@ nav {
 
         .logo-icon{
             font-size: 1.4rem;
+            :hover&{
+                cursor: pointer;
+            }
         }
         
         .abstract-logo-text-container{
@@ -41,13 +44,15 @@ nav {
                 font-weight: 500;
                 :hover& {
                     cursor: pointer;
-                    text-decoration: underline;
                 }
+            }
+            p:nth-child(2){
+                cursor: default;
             }
             p:nth-child(3){
                 :hover&{
                     cursor: pointer;
-                    text-decoration: underline;
+                    text-decoration: underline rgba(255, 255, 255, .7);
                 }
             }
         }
