@@ -107,12 +107,13 @@ nav {
         margin: .5rem auto;
         border: 1px solid rgba(0, 0, 0, .6);
         border-radius: .2rem;
-        padding: .1rem;
         box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
 
         input{
             color: rgba(0, 0, 0, .8);
-            padding-left: 1rem;
+            padding: 1.3rem;
+            border-radius: .2rem;
+            padding-left: .8rem;
             flex: 1;
             border: none;
             /* border: 1px solid black; */
@@ -128,15 +129,19 @@ nav {
         }
         button{
             border: none;
+            color: rgba(0, 0, 0, .5);
             /* border: 1px solid black; */
             padding: .5rem;
             line-height: 0;
             background-color: transparent;
             font-size: 1.2rem;
+            transition: color .2s;
             :hover&{
                 cursor: pointer;
+                color: black;
             }
         }
+        
     }
     
 }
