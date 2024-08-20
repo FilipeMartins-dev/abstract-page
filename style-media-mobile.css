@@ -51,3 +51,11 @@ nav{
         }
     }
 }
+
+.aside-section{
+    padding: 3rem;
+
+    & .card{
+        width: 100%;
+    }
+}
