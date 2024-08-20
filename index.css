@@ -107,21 +107,24 @@ nav {
     .main-input-container{
         background-color: white;
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        width: 24rem;
+        max-width: 24rem;
         margin: .5rem auto;
         border: 1px solid rgba(0, 0, 0, .6);
         border-radius: .2rem;
         box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
+        padding: .5rem;
 
-        input{
+        & input{
+            background-color: transparent;
             color: rgba(0, 0, 0, .8);
-            padding: 1.3rem;
-            border-radius: .2rem;
-            padding-left: .8rem;
+            /* border-radius: .2rem; */
+            /* padding: .5rem; */
+            padding-left: .5rem;
             flex: 1;
             border: none;
-            /* border: 1px solid black; */
+            /* border: 1px solid red; */
             height: 2rem;
             font-size: 1.05rem;
             :focus-visible&{
@@ -135,8 +138,9 @@ nav {
         button{
             border: none;
             color: rgba(0, 0, 0, .5);
-            /* border: 1px solid black; */
+            /* border: 1px solid red; */
             padding: .5rem;
+            /* flex: 1; */
             line-height: 0;
             background-color: transparent;
             font-size: 1.2rem;

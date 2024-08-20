@@ -1,0 +1,15 @@
+
+.main-section{
+    padding: 3rem;
+    /* border: 1px solid red; */
+    /* padding: 0; */
+    & .main-section-container{
+        padding: 1rem;
+        /* border: 1px solid red; */
+        & .main-input-container{
+            & input{
+                min-width: 1rem;
+            }
+        }
+    }
+}
