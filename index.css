@@ -18,7 +18,7 @@ nav {
     background-color: black;
     padding: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     .nav-section-left{
@@ -181,6 +181,7 @@ nav {
         /* titulo */
         p:nth-child(1){
             font-weight: bold;
+            font-size: 1.2rem;
         }
 
         /* texto */
@@ -192,6 +193,7 @@ nav {
         a{
             color: var(--color-blue);
             text-decoration: none;
+            font-size: 1.05rem;
             display: flex;
             align-items: center;
             gap: .5rem;
