@@ -21,4 +21,5 @@ Improve my following skills
 
 <hr>
 
-![image](https://github.com/user-attachments/assets/5626b2cd-3c8b-410f-87a0-b650ca95581c)
+![Captura de tela 2024-08-22 144234](https://github.com/user-attachments/assets/97ba8bba-0697-4636-8b93-6be867f18a75)
+
